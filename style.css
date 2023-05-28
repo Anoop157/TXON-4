@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+
+    background-color: gray;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 35px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /*background-color: rgb(127, 235, 241);*/
+    height: 55vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hello {
+    font-size: 60px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 35px;
+
+}
+
+.moreabout {
+    font-size: 21px;
+    margin-top: 22px;
+}
+
+.buttons {
+    margin-top: 33px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(23, 136, 234);
+    background-color: rgb(12, 244, 62);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 3px;
+    cursor: pointer;
+
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: rgb(206, 244, 14);
+
+}
+
+.devPic img {
+    height: 55vh;
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contactform h1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 12px 0;
+    
+
+}
+.contactform div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform form  div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.skillsitem{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.skillsContainer h1{
+    margin: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.skillsitem p{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.intro h2{
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 12px;
+
+}
+.intro p{
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 12px;
+
+}
+.skillsContainer{
+    padding: 12px;
+}
+.skillsitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+}
+.skills{
+    width: 150px;
+    height: 8px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{
+    width: 265px;
+    background-color: chartreuse;
+}
+.fifty{
+    width: 125px;
+    background-color: blue;
+
+}
+.t5{
+    width: 75px;
+    background-color: aqua;
+}
